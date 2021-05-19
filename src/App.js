@@ -45,7 +45,7 @@ function App() {
           {renderButton("4")}
           {renderButton("5")}
           {renderButton("6")}
-          <Button symbol="x" color={color} handleClick={addToText} />
+          <Button symbol="*" color={color} handleClick={addToText} />
         </div>
         <div className="row">
           {renderButton("1")}
